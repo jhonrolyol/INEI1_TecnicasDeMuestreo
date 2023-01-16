@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SPSSComplexSamples version="1.0">
+	<Header copyright="Copyright (c) IBM Corp., 2012. All Rights Reserved."/>
+	<AnalysisDesign SRSestimator="wor" numberOfStages="1">
+		<AnalysisStage estimationMethod="equal_wor" stageNumber="1">
+			<IncProb>
+				<Variable name="Probabi"/>
+			</IncProb>
+		</AnalysisStage>
+		<Weight>
+			<Variable name="Peso_muestral"/>
+		</Weight>
+	</AnalysisDesign>
+</SPSSComplexSamples>

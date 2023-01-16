@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SPSSComplexSamples version="1.0">
+	<Header copyright="Copyright (c) IBM Corp., 2012. All Rights Reserved."/>
+	<SampleDesign numberOfStages="1" wrEstimation="no">
+		<SampleStage selectionMethod="simple_wor" stageNumber="1">
+			<InputSampleSize>
+				<SingleValue value="350"/>
+			</InputSampleSize>
+			<IncProb>
+				<Variable name="InclusionProbability_1_"/>
+			</IncProb>
+			<CumulativeWeight>
+				<Variable name="SampleWeightCumulative_1_"/>
+			</CumulativeWeight>
+		</SampleStage>
+		<Weight>
+			<Variable name="SampleWeight_Final_"/>
+		</Weight>
+	</SampleDesign>
+	<AnalysisDesign SRSestimator="wor" numberOfStages="1">
+		<AnalysisStage estimationMethod="equal_wor" stageNumber="1">
+			<IncProb>
+				<Variable name="InclusionProbability_1_"/>
+			</IncProb>
+		</AnalysisStage>
+		<Weight>
+			<Variable name="SampleWeight_Final_"/>
+		</Weight>
+	</AnalysisDesign>
+</SPSSComplexSamples>
